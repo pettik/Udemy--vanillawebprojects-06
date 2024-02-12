@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <!--=============== FONT AWESOME cdn source ===============-->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         />
+      <!--=============== MY CSS ===============-->
+      <link rel="stylesheet" href="./css/style.css" />
+      <!--=============== TITLE ===============-->
+      <title>06 - JOANA'S WEBSITE | Bednarski Petr</title>
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+            <img src="https://mighty.tools/mockmind-api/content/human/49.jpg" alt="User">
+         </div>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+         </ul>
+      </nav>
+      <header>
+         <button id="toggle" class="toggle"><i class="fa-solid fa-bars fa-2x"></i></button>
+         <h1>Graphic artist from the Sudetenland</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, tempora!</p>
+         <button class="cta-btn" id="open">Sign Up</button>
+      </header>
+      <div class="container">
+         <h2>About me</h2>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam non cum sunt accusantium dolorem reprehenderit adipisci harum numquam quaerat doloremque neque architecto quos iste reiciendis, officia facilis eos enim.</p>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi molestiae et ab perspiciatis odit nisi quidem velit voluptas hic similique!</p>
+         <h2>My life like an artist</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet eveniet vitae, officiis temporibus aliquid nobis minima quos, a quas deserunt voluptas sint. Alias, impedit quasi distinctio exercitationem quaerat voluptatum neque minus quis culpa obcaecati delectus commodi consequatur laudantium. Nesciunt?</p>
+         <h2>How Can I Help You</h2>
+         <ul>
+            <li>posters, business cards including print realization</li>
+            <li>comprehensive report for authorities with professional formatting
+            </li>
+            <li>websites (possibility of e-shop)</li>
+            <li>social networks</li>
+            <li>photography/video</li>
+         </ul>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis nostrum, error animi recusandae ipsa excepturi. Quibusdam sed veniam repudiandae quos voluptatum, dicta harum iste dolorem, non explicabo consectetur molestias?</p>
+      </div>
+      <!-- Modal -->
+      <div class="modal-container" id="modal">
+         <div class="modal">
+            <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+               <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+               <p>Register with us to get offers, support and more:</p>
+               <form class="modal-form">
+                  <div>
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" placeholder="Enter Name">
+                  </div>
+                  <div>
+                     <label for="email">Email:</label>
+                     <input type="email" id="email" placeholder="Enter E-mail">
+                  </div>
+                  <div>
+                     <label for="password">Password:</label>
+                     <input type="password" id="password" placeholder="Enter password">
+                  </div>
+                  <div>
+                     <label for="password2">Confirm Password:</label>
+                     <input type="password" id="password2" placeholder="Confirm password">
+                  </div>
+                  <input type="submit" value="Submit" class="submit-btn">
+               </form>
+            </div>
+         </div>
+      </div>
+      <!--=============== JAVASCRIPT ===============-->
+      <script src="script.js"></script>
+   </body>
+</html>
